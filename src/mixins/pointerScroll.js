@@ -2,8 +2,8 @@ export default {
   props: {
     autoscroll: {
       type: Boolean,
-      default: true
-    }
+      default: true,
+    },
   },
 
   watch: {
@@ -22,8 +22,9 @@ export default {
      * @returns {*}
      */
     maybeAdjustScroll() {
-      const optionEl =
-        this.$refs.dropdownMenu?.children[this.typeAheadPointer] || false;
+      const optionEl = this.$refs.dropdownMenu
+        ? this.$refs.dropdownMenu.children[this.typeAheadPointer]
+        : false;
 
       if (optionEl) {
         const bounds = this.getDropdownViewport();
@@ -48,8 +49,8 @@ export default {
         : {
             height: 0,
             top: 0,
-            bottom: 0
+            bottom: 0,
           };
-    }
-  }
+    },
+  },
 };
