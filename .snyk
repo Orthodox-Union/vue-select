@@ -1,0 +1,174 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - node-sass > lodash:
+        patched: '2023-12-15T17:06:51.755Z'
+        id: SNYK-JS-LODASH-567746
+        path: node-sass > lodash
+    - semantic-release > lodash:
+        patched: '2023-12-15T17:06:51.755Z'
+        id: SNYK-JS-LODASH-567746
+        path: semantic-release > lodash
+    - html-webpack-plugin > lodash:
+        patched: '2023-12-15T17:06:51.755Z'
+        id: SNYK-JS-LODASH-567746
+        path: html-webpack-plugin > lodash
+    - webpack-merge > lodash:
+        patched: '2023-12-15T17:06:51.755Z'
+        id: SNYK-JS-LODASH-567746
+        path: webpack-merge > lodash
+    - '@babel/preset-env > @babel/plugin-transform-block-scoping > lodash':
+        patched: '2023-12-15T17:06:51.755Z'
+        id: SNYK-JS-LODASH-567746
+        path: '@babel/preset-env > @babel/plugin-transform-block-scoping > lodash'
+    - semantic-release > @semantic-release/release-notes-generator > lodash:
+        patched: '2023-12-15T17:06:51.755Z'
+        id: SNYK-JS-LODASH-567746
+        path: semantic-release > @semantic-release/release-notes-generator > lodash
+    - commitizen > inquirer > lodash:
+        patched: '2023-12-15T17:06:51.755Z'
+        id: SNYK-JS-LODASH-567746
+        path: commitizen > inquirer > lodash
+    - cz-conventional-changelog > commitizen > lodash:
+        patched: '2023-12-15T17:06:51.755Z'
+        id: SNYK-JS-LODASH-567746
+        path: cz-conventional-changelog > commitizen > lodash
+    - node-sass > sass-graph > lodash:
+        patched: '2023-12-15T17:06:51.755Z'
+        id: SNYK-JS-LODASH-567746
+        path: node-sass > sass-graph > lodash
+    - vue-jest > node-cache > lodash:
+        patched: '2023-12-15T17:06:51.755Z'
+        id: SNYK-JS-LODASH-567746
+        path: vue-jest > node-cache > lodash
+    - webpack-dev-server > http-proxy-middleware > lodash:
+        patched: '2023-12-15T17:06:51.755Z'
+        id: SNYK-JS-LODASH-567746
+        path: webpack-dev-server > http-proxy-middleware > lodash
+    - '@babel/preset-env > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2023-12-15T17:06:51.755Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @babel/preset-env > @babel/helper-module-imports > @babel/types >
+          lodash
+    - commitizen > cz-conventional-changelog > @commitlint/load > lodash:
+        patched: '2023-12-15T17:06:51.755Z'
+        id: SNYK-JS-LODASH-567746
+        path: commitizen > cz-conventional-changelog > @commitlint/load > lodash
+    - cz-conventional-changelog > commitizen > inquirer > lodash:
+        patched: '2023-12-15T17:06:51.755Z'
+        id: SNYK-JS-LODASH-567746
+        path: cz-conventional-changelog > commitizen > inquirer > lodash
+    - semantic-release > @semantic-release/release-notes-generator > conventional-changelog-writer > lodash:
+        patched: '2023-12-15T17:06:51.755Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          semantic-release > @semantic-release/release-notes-generator >
+          conventional-changelog-writer > lodash
+    - vue-jest > babel-plugin-transform-es2015-modules-commonjs > babel-template > lodash:
+        patched: '2023-12-15T17:06:51.755Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          vue-jest > babel-plugin-transform-es2015-modules-commonjs >
+          babel-template > lodash
+    - webpack-dev-server > portfinder > async > lodash:
+        patched: '2023-12-15T17:06:51.755Z'
+        id: SNYK-JS-LODASH-567746
+        path: webpack-dev-server > portfinder > async > lodash
+    - node-sass > gaze > globule > lodash:
+        patched: '2023-12-15T17:06:51.755Z'
+        id: SNYK-JS-LODASH-567746
+        path: node-sass > gaze > globule > lodash
+    - semantic-release > @semantic-release/commit-analyzer > conventional-commits-parser > lodash:
+        patched: '2023-12-15T17:06:51.755Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          semantic-release > @semantic-release/commit-analyzer >
+          conventional-commits-parser > lodash
+    - '@babel/preset-env > @babel/plugin-proposal-unicode-property-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash':
+        patched: '2023-12-15T17:06:51.755Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @babel/preset-env > @babel/plugin-proposal-unicode-property-regex >
+          @babel/helper-create-regexp-features-plugin > @babel/helper-regex >
+          lodash
+    - cz-conventional-changelog > commitizen > cz-conventional-changelog > @commitlint/load > lodash:
+        patched: '2023-12-15T17:06:51.755Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          cz-conventional-changelog > commitizen > cz-conventional-changelog >
+          @commitlint/load > lodash
+    - vue-jest > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-traverse > lodash:
+        patched: '2023-12-15T17:06:51.755Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          vue-jest > babel-plugin-transform-es2015-modules-commonjs >
+          babel-template > babel-traverse > lodash
+    - commitizen > cz-conventional-changelog > @commitlint/load > @commitlint/resolve-extends > lodash:
+        patched: '2023-12-15T17:06:51.755Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          commitizen > cz-conventional-changelog > @commitlint/load >
+          @commitlint/resolve-extends > lodash
+    - vue-jest > babel-plugin-transform-es2015-modules-commonjs > babel-plugin-transform-strict-mode > babel-types > lodash:
+        patched: '2023-12-15T17:06:51.755Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          vue-jest > babel-plugin-transform-es2015-modules-commonjs >
+          babel-plugin-transform-strict-mode > babel-types > lodash
+    - '@babel/preset-env > @babel/plugin-proposal-async-generator-functions > @babel/helper-remap-async-to-generator > @babel/helper-wrap-function > @babel/traverse > lodash':
+        patched: '2023-12-15T17:06:51.755Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @babel/preset-env > @babel/plugin-proposal-async-generator-functions >
+          @babel/helper-remap-async-to-generator > @babel/helper-wrap-function >
+          @babel/traverse > lodash
+    - cz-conventional-changelog > commitizen > cz-conventional-changelog > @commitlint/load > @commitlint/resolve-extends > lodash:
+        patched: '2023-12-15T17:06:51.755Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          cz-conventional-changelog > commitizen > cz-conventional-changelog >
+          @commitlint/load > @commitlint/resolve-extends > lodash
+    - '@babel/preset-env > @babel/plugin-proposal-async-generator-functions > @babel/helper-remap-async-to-generator > @babel/helper-wrap-function > @babel/traverse > @babel/generator > lodash':
+        patched: '2023-12-15T17:06:51.755Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @babel/preset-env > @babel/plugin-proposal-async-generator-functions >
+          @babel/helper-remap-async-to-generator > @babel/helper-wrap-function >
+          @babel/traverse > @babel/generator > lodash
+    - jest > jest-cli > @jest/core > @jest/reporters > @jest/environment > @jest/transform > @babel/core > lodash:
+        patched: '2023-12-15T17:06:51.755Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          jest > jest-cli > @jest/core > @jest/reporters > @jest/environment >
+          @jest/transform > @babel/core > lodash
+    - jest > jest-cli > @jest/core > @jest/reporters > @jest/environment > @jest/transform > @babel/core > @babel/generator > lodash:
+        patched: '2023-12-15T17:06:51.755Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          jest > jest-cli > @jest/core > @jest/reporters > @jest/environment >
+          @jest/transform > @babel/core > @babel/generator > lodash
+    - jest > jest-cli > @jest/core > @jest/reporters > @jest/environment > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2023-12-15T17:06:51.755Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          jest > jest-cli > @jest/core > @jest/reporters > @jest/environment >
+          @jest/transform > @babel/core > @babel/helpers > @babel/traverse >
+          lodash
+    - jest > jest-cli > @jest/core > @jest/reporters > @jest/environment > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > lodash:
+        patched: '2023-12-15T17:06:51.755Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          jest > jest-cli > @jest/core > @jest/reporters > @jest/environment >
+          @jest/transform > @babel/core > @babel/helpers > @babel/traverse >
+          @babel/generator > lodash
+    - jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > jest-config > jest-environment-jsdom > jsdom > request-promise-native > request-promise-core > lodash:
+        patched: '2023-12-15T17:06:51.755Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          jest > jest-cli > @jest/core > @jest/reporters > jest-runtime >
+          jest-config > jest-environment-jsdom > jsdom > request-promise-native
+          > request-promise-core > lodash
