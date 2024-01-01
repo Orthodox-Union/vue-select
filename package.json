@@ -43,7 +43,7 @@
     "autoprefixer": "^9.4.7",
     "babel-core": "^7.0.0-bridge.0",
     "babel-loader": "^8.0.5",
-    "bundlewatch": "^0.2.5",
+    "bundlewatch": "^0.3.2",
     "chokidar": "^2.1.5",
     "commitizen": "^4.0.3",
     "coveralls": "^3.0.2",
