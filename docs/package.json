@@ -18,7 +18,7 @@
     "@vuepress/plugin-search": "^1.4.0",
     "axios": "^0.19.2",
     "cross-env": "^7.0.2",
-    "date-fns": "^2.11.0",
+    "date-fns": "^2.30.0",
     "dotenv": "^8.2.0",
     "fuse.js": "^6.4.0",
     "gh-pages": "^2.2.0",
